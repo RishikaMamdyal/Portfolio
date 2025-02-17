@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Using GSAP</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="header">
+        <h2>Portfolio</h2>
+        <div class="links">
+            <a href="#Home">Home</a>
+            <a href="#About">About</a>
+            <a href="#Resume">Resume</a>
+            <a href="#Projects">Projects</a>
+            <a href="#Contact">Contact</a>
+        </div>
+    </div>
+
+    <div class="home" id="Home">
+        <div class="home-container-1">
+            <h3>Hello !</h3>
+            <h1>I'm <span>Rishika Mamdyal</span></h1>
+            <h2 class="info">Student of </h2>
+            <div class="action">
+                <button >Hire Me</button>
+                <button >Download Resume</button>
+            </div>
+        </div>
+        <div class="home-container-2">
+
+        </div>
+    </div>
+
+    <div class="about" id="About">
+        <div class="about-container-1">
+            <div class="about-info">
+                <div class="img">
+
+                </div>
+                <div class="details">
+                    <div class="info">
+                        <p>Name :</p>
+                        <p>Rishika Ramu Mamdyal</p>
+                    </div>
+                    <div class="info">
+                        <p>Job Role :</p>
+                        <p>Full Stack Web Developer</p>
+                    </div>
+                    <div class="info">
+                        <p>Experience :</p>
+                        <p>Fresher</p>
+                    </div>
+                    <div class="info">
+                        <p>Address : </p>
+                        <p>Solapur, Maharashtra, India</p>
+                    </div>
+                </div>
+            </div>
+            <div class="skills">
+                <h1>Skills</h1>
+                <div class="container">
+                    <div class="cards">
+                            <i class="fa-brands fa-html5"></i>
+                        <p>HTML5</p>
+                    </div>
+                    <div class="cards">
+                            <i class="fa-brands fa-css3-alt"></i>
+                        <p>CSS</p>
+                    </div>
+                    <div class="cards">
+                            <i class="fa-brands fa-js"></i>
+                        <p>JavaScript</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="about-container-2">
+            <h1>About Me</h1>
+            <p>As a student of Shree Siddheshwar Women's College of Engineering, I've had the opportunity to work on various academic projects, including Android applications, websites, and databases. My projects, such as FarmBuddy and Online Food Delivery Service, showcase my ability to design and develop solutions that solve real-world problems. In addition to my technical skills, I've also honed my leadership abilities through various positions of authority, including Joint Secretary of the Student Council Association and Team Leader of the finalist team at Smart India Hackathon 2022. I'm eager to collaborate with like-minded individuals and organizations to create impactful technology solutions. Let's connect and explore opportunities to work together!</p>
+            <div class="details">
+                <div class="info">
+                    <h3>Profile:</h3>
+                    <p>Student</p>
+                </div>
+                <div class="info">
+                    <h3>Domain:</h3>
+                    <p>Full Stack Web Developer</p>
+                </div>
+                <div class="info">
+                    <h3>Education:</h3>
+                    <p>Bachelor of Technology</p>
+                </div>
+                <div class="info">
+                    <h3>Language:</h3>
+                    <p>English, Marathi, Hindi, Telugu</p>
+                </div>
+                <div class="info">
+                    <h3>Interest:</h3>
+                    <p>Painting, Crafting, Teaching</p>
+                </div>
+                <a href="https://www.linkedin.com/in/rishikamamdyal"><button>LinkedIn</button></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="resume" id="Resume">
+        <h1>Resume</h1>
+        <p>Final year B.Tech student with a strong foundation in front-end development, proficient in HTML, CSS, and JavaScript. Seeking to leverage my skills in building responsive and user-friendly web applications. Eager to learn and grow as a front-end developer, with a passion for creating innovative and interactive web experiences.</p>
+    </div>
+
+    <div class="internship">
+        <h1>Internship</h1>
+        <div class="container">
+        <div class="box" id="ibox1">
+            <div class="details">
+                <h2>2024</h2>
+                <h3>Full Stack Web development</h3>
+                <h4>Prodigy Infotech</h4>
+            </div>
+            <p>Completed a 1-month (1st July, 2024 - 31st July,2024) online internship at "Prodigy Infotech", where I successfully executed 4 projects utilizing HTML, CSS, and JavaScript. Demonstrated proficiency in front-end development by delivering high-quality tasks on time. Gained hands-on experience in building responsive and interactive web applications, enhancing my skills in web development.</p>
+        </div>
+        <div class="box" id="ibox2">
+            <div class="details">
+                <h2>2021</h2>
+                <h3>Web development</h3>
+                <h4>Bodhi Technology</h4>
+            </div>
+            <p>Completed a 1-month (1st July, 2024 - 31st July,2024) online internship at "Prodigy Infotech", where I successfully executed 4 projects utilizing HTML, CSS, and JavaScript. Demonstrated proficiency in front-end development by delivering high-quality tasks on time. Gained hands-on experience in building responsive and interactive web applications, enhancing my skills in web development.</p>
+        </div>
+    </div>
+    </div>
+
+    <div class="education">
+        <h1>Education</h1>
+        <div class="container">
+            <div class="box">
+                <h2>2021-2025</h2>
+                <h3>Bachelor of Technology</h3>
+                <h4>Shree Siddheshwar Women’s College of Enginerring, Solapur.</h4>
+                <p>Dr. Babasaheb Ambedkar Technological University.</p>
+                <p>2nd Year : 7.75 (CGPA).</p>
+            </div>
+            <div class="box">
+                <h2>2019-2021</h2>
+                <h3>Diploma</h3>
+                <h4>Shri Siddheshwar Women’s Polytechnic, Solapur.</h4>
+                <p>Maharashtra State Board of Technical Education.</p>
+                <p>Persentage: 82.25%</p>
+            </div>
+            <div class="box">
+                <h2>2024</h2>
+                <h3>SSC</h3>
+                <h4>Haribhai Deokaran High School, Solapur.</h4>
+                <p>Maharashtra State Board of Secondary & Higher Secondary Education, Pune.</p>
+                <p>Percentage: 68.00%</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="projects" id="Projects">
+        <div class="title">
+            <h1>Projects</h1>
+            <p>Below are the Acadamic Projects on Web Development and Android.</p>
+        </div>
+        <div class="container">
+            <div class="cards">
+                <div class="img">
+                    <img src="proj_1.jpeg" alt="image not found">
+                </div>
+                <div class="info">
+                    <h3>Agriculture- Connect Farmers with Retailers and Food Processing Industries (FPI) (FarmBuddy)</h3>
+                    <p>An Android application that will help farmers to sell their crops on market price production using Mobile Application Approach.</p>
+                </div>  
+            </div>
+            <div class="cards">
+                <div class="img">
+                    <img src="proj_2.jpeg" alt="image not found">
+                </div>
+                <div class="info">
+                    <h3>Rishika Construction</h3>
+                    <p>The website provides an online platform to show their work and done projects engineer details and customer details.</p>
+                </div>
+            </div>
+            <div class="cards">
+                <div class="img">
+                    <img src="proj_3.jpeg" alt="image not found">
+                </div>
+                <div class="info">
+                    <h3>Coffee Town Coffee Shop</h3>
+                    <p>Website which provides an online platform for small shops.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact" id="Contact">
+        <div class="title">
+            <h1>Contact Me</h1>
+            <p>Below are the details to reach out to me!</p>
+        </div>
+        <div class="container">
+            <div class="cards">
+                <div class="logo">
+                    <i class="fa-solid fa-signs-post"></i>
+                </div>
+                <h3>Address</h3>
+                <p>Solapur, Maharashtra, India.</p>
+            </div>
+            <div class="cards">
+                <div class="logo">
+                    <i class="fa-solid fa-phone"></i>
+                </div>
+                <h3>Contact Number</h3>
+                <p>+ 91 9579315921</p>
+            </div>
+            <div class="cards">
+                <div class="logo">
+                    <i class="fa-solid fa-paper-plane"></i>
+                </div>
+                <h3>Email Address</h3>
+                <p>rishikamamdyal@gmail.com</p>
+            </div>
+            <div class="cards">
+                <div class="logo">
+                    <i class="fa-solid fa-earth-americas"></i>
+                </div>
+                <h3>Download Resume</h3>
+                <p>Resume</p>
+            </div>
+        </div>
+        <div class="media">
+            <h3>Find Me On</h3>
+            <div class="social-media">
+                <div class="icon">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </div>
+                <div class="icon">
+                    <i class="fa-brands fa-github"></i>
+                </div>
+                <div class="icon">
+                    <i class="fa-brands fa-discord"></i>
+                </div>
+                <div class="icon">
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
